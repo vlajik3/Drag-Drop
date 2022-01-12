@@ -64,9 +64,17 @@ body {
 }
 
 .hold {
-  border: 5px solid red;
+  opacity: 0.1;
+  border: 3px dotted #8ed7ed;
 }
 
 .hide {
-  
+  display: none;
+}
+
+.hovered {
+  width: 150px;
+  height: 66px;
+  border: 1px solid #8ed7ed;
+  border-radius: 20px;
 }
